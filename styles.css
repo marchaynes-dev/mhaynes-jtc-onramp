@@ -48,6 +48,7 @@ h5,
 h6 {
   line-height: 1.2;
   margin-bottom: 0.5em;
+  color: darkgreen;
 }
 
 /* 6. Paragraphs & lists */
@@ -56,16 +57,11 @@ ul,
 ol {
   margin-bottom: 1em;
 
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: darkgreen;
-}
 
 p {
   font-family: Garamond, serif;
+}
+
+a:hover {
+  color: darkblue;
 }
