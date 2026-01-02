@@ -85,3 +85,12 @@ a:hover {
   color: white;
   font-weight: bold;
 }
+.box-orange {
+  background-color: orange;
+  border-color: white;
+}
+
+.box-green {
+  background-color: green;
+  border-color: lightblue;
+}
