@@ -20,6 +20,10 @@ body {
   background-color: #fff;
   padding: 1rem;
 }
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* 3. Media defaults */
 img,
