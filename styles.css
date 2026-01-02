@@ -66,19 +66,16 @@ a:hover {
   color: darkblue;
 }
 /* Box styles */
-.box {
+..box {
   width: 200px;
   height: 200px;
   margin: 1rem;
   border: 4px solid;
-}
 
-.box-orange {
-  background-color: orange;
-  border-color: white;
-}
-
-.box-green {
-  background-color: green;
-  border-color: lightblue;
+  /* text styling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
 }
