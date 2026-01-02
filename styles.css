@@ -26,7 +26,7 @@ main {
   max-width: 800px;
   margin: 0 auto;
 }
-/*
+
 /* METHOD 2: Flexbox centering
    Centers main horizontally and vertically using flex */
 /*
@@ -36,11 +36,6 @@ body {
   align-items: center;
 }
 */
-
-main {
-  max-width: 800px;
-}
-
 /* METHOD 3: Position-based centering
    Centers main using absolute positioning */
 /*
@@ -51,7 +46,7 @@ main {
   transform: translate(-50%, -50%);
   max-width: 800px;
 }
-
+*/
 
 
 /* 3. Media defaults */
