@@ -22,10 +22,12 @@ body {
 }
 /* METHOD 1: Display-based centering
    Centers main horizontally using block layout */
+/*
 main {
   max-width: 800px;
   margin: 0 auto;
 }
+*/
 
 /* METHOD 2: Flexbox centering
    Centers main horizontally and vertically using flex */
