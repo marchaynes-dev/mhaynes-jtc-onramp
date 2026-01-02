@@ -70,8 +70,15 @@ a:hover {
 .box {
   width: 200px;
   height: 200px;
+
+  /* MARGIN: space OUTSIDE the element, separates it from other elements */
   margin: 1rem;
+
+  /* BORDER: visible edge around the element, defines the box boundary */
   border: 4px solid;
+
+  /* PADDING: space INSIDE the box, between the border and the content */
+  padding: 1rem;
 
   display: flex;
   align-items: center;
