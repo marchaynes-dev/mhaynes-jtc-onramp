@@ -20,10 +20,37 @@ body {
   background-color: #fff;
   padding: 1rem;
 }
+/* METHOD 1: Display-based centering
+   Centers main horizontally using block layout */
 main {
   max-width: 800px;
   margin: 0 auto;
 }
+/* METHOD 2: Flexbox centering
+   Centers main horizontally and vertically using flex */
+/*
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  max-width: 800px;
+}
+*/
+/* METHOD 3: Position-based centering
+   Centers main using absolute positioning */
+/*
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+}
+*/
+
 
 /* 3. Media defaults */
 img,
