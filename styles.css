@@ -56,12 +56,6 @@ p,
 ul,
 ol {
   margin-bottom: 1em;
-
-
-p,
-ul,
-ol {
-  margin-bottom: 1em;
 }
 
 p {
@@ -85,6 +79,7 @@ a:hover {
   color: white;
   font-weight: bold;
 }
+
 .box-orange {
   background-color: orange;
   border-color: white;
