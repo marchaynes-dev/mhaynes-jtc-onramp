@@ -199,6 +199,7 @@ a:hover {
 .box-orange {
   background-color: orange;
   border-color: white;
+  color: #111; /* change from white to dark text for better contrast */
 }
 
 .box-green {
