@@ -93,6 +93,13 @@ main {
   max-width: 800px;
 }
 */
+.section {
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
 
 
 /* 3. Media defaults */
