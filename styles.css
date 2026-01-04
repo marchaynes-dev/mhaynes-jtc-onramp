@@ -197,6 +197,16 @@ a:hover {
   background-color: green;
   border-color: lightblue;
 }
+.box-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 0; /* remove the old margin so gap controls spacing */
+}
+
 @media (max-width: 600px) {
   .nav-inner {
     flex-direction: column;
