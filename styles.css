@@ -20,6 +20,17 @@ body {
   background-color: #fff;
   padding: 1rem;
 }
+
+/* Navbar base styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
 /* METHOD 1: Display-based centering
    Centers main horizontally using block layout */
 main {
